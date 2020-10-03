@@ -1,0 +1,25 @@
+.r
+{
+	margin-top: 100px;
+}
+.cl
+{
+	display: flex;
+	flex-wrap:wrap;
+	align-items: center;
+}
+.cl>*
+{
+	margin:10px;
+}
+.addimg
+{
+	align-self: center;
+	width:100px;
+    transition: background .25s ease-in-out, 
+                transform .25s ease;
+}
+.addimg:hover
+{
+	transform: scale(1.1);
+}
